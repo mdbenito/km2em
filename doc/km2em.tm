@@ -512,9 +512,9 @@
 
       import sys
 
-      sys.path.extend(['/path/to/emkmeans'])
+      sys.path.extend(['/path/to/km2em'])
 
-      from emkmeans import *
+      from km2em import *
 
       path = "PATH TO YOUR DATASET"
     <|unfolded-io>
@@ -529,7 +529,8 @@
 
   Most of this document is heavily based on <cite|bishop_pattern_2006> and
   <cite|murphy_machine_2012>. For a deeper treatment of the questions in this
-  note you should read <cite-detail|bishop_pattern_2006|Chapter 9>.
+  note you should read <cite-detail|bishop_pattern_2006|Chapter 9>. The
+  sources are <hlink|in Bitbucket|https://bitbucket.org/mdbenito/km2em>.
 
   <\bibliography|bib|tm-alpha|kmeans.bib>
     <\bib-list|3>
