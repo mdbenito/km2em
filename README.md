@@ -1,17 +1,24 @@
-# K-Means and Expectation Maximization
+# From K-Means to Expectation Maximization
 
 K-means is a simple clustering algorithm which matches each data point
 to exactly one of K clusters in a way such that the sum of the squares
 of the distances of each data point to the center of mass of its assigned
 cluster is minimal. We review how this minimization can be performed
 iteratively in a manner closely linked to Expectation Maximization for
-Gaussian mixtures. We also briefly discuss K-Means++.
+Gaussian mixtures, then proceed with a deeper analysis of EM:
 
+After introducing Gaussian mixtures with latent variables, we explain how EM
+naturally appears for the estimation of the parameters, then apply it to
+mixtures of Gaussian and Bernoulli variables. We also say a few words about the
+Kullback-Leibler divergence to be able to show why EM works.
 
 ## Documentation
 
-Please read the contents of `doc` for a description of the algorithm and some
-examples inside live sessions of a [TeXmacs](http://www.texmacs.org) document.
+* The file `doc/km2em.pdf` and its source `doc/km2em.tm` contain a description
+of the algorithm, a breif review of gaussian mixtures and some examples inside
+live sessions of a [TeXmacs](http://www.texmacs.org) document.
+* The file `doc/em.pdf` and its source `doc/em.tm` provide a more thorough
+introduction to Expectation Maximization.
 
 ## Implementation (disclaimer)
 
