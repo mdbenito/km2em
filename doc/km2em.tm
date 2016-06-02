@@ -474,7 +474,7 @@
     </enumerate>
   </named-algorithm>
 
-  The bottom line here is that, if you one is doing vanilla <math|K>-means,
+  The bottom line here is that, if one is doing vanilla <math|K>-means,
   then one should be doing <math|K>-means++.
 
   <appendix*|<TeXmacs> setup>
